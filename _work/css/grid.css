@@ -1,0 +1,30 @@
+/* sneakerheadz grid css*/
+
+[class*='col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.grid-1of5 {
+	width: 20%;
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (max-width: 812px) {
+	
+	.col-1of5 {
+		width: 100%;
+	}
+}
