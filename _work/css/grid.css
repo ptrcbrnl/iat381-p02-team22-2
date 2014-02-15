@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.grid-1of5 {
+.col-1of5 {
 	width: 20%;
 }
 
@@ -27,4 +27,18 @@
 	.col-1of5 {
 		width: 100%;
 	}
+
+}
+
+
+.col-1of2{
+	width: 50%;
+}
+
+@media (max-width: 600px) {
+	
+	.col-1of2 {
+		width: 100%;
+	}
+
 }
