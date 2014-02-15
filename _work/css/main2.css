@@ -1,0 +1,46 @@
+/* main2.css */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+.masthead {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 4.5rem;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+.navlinks {
+	font-family: 'Exo', sans-serif;
+	text-decoration: none;
+	color: #000;
+	font-size: 1.5rem;
+}
+
+.homecontent {
+	margin-top: 5rem;
+}
+
+.placeholder {
+	display: block;
+	height: 35rem;
+	width: 100%;
+	background-color: gray;
+	border: 1px solid #000;
+}
