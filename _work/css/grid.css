@@ -10,6 +10,13 @@
 	width: 20%;
 }
 
+.col-3of5 {
+	width: 60%;
+}
+
+.col-2of5 {
+	width: 40%;
+}
 .grid:after {
 	content: "";
 	display: block;
