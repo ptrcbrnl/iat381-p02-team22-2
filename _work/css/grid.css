@@ -31,7 +31,7 @@
 
 @media (max-width: 812px) {
 	
-	.col-1of5 {
+	.col-1of5, .col-3of5, .col-2of5 {
 		width: 100%;
 	}
 
