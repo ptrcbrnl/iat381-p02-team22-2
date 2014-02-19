@@ -242,6 +242,14 @@ option {
 	margin-top: 4rem;
 }
 
+.reviewComment {
+	clear: both;
+	float: left;
+	width: 40rem;
+	height: 20rem;
+	margin-bottom: 2rem;
+}
+
 .raterName {
 	text-align: left;
 	text-decoration: none;
