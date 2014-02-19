@@ -358,6 +358,17 @@ a {
 	color: #000;
 }
 
+/* About Page*/
+.aboutContent {
+	display: inline-block;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+	text-align: left;
+}
+
 /* Footer */
 #footer {
 	position: relative;
