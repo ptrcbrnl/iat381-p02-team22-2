@@ -39,7 +39,7 @@ body {
 }
 
 
-/* Dropdown Navigation */
+/*-------Dropdown Navigation-------*/
 #coolMenu,
 #coolMenu ul {
     list-style-type: none;
@@ -97,7 +97,7 @@ body {
 	border: 1px solid #000;
 }
 
-/* Product Detail Page */
+/*-------Product Detail Page-------*/
 .productDetail {
 	margin-top: 5rem;
 }
@@ -236,7 +236,7 @@ option {
 	clear: both;
 }
 
-/* Review Section */
+/*-------Review Section-------*/
 .reviewSection {
 	width: 100%;
 	margin-top: 4rem;
@@ -323,7 +323,7 @@ option {
 	color: white;
 }
 
-/* Product Gallery page */
+/*-------Product Gallery page-------*/
 .productGallery {
 	margin-top: 5rem;
 }
@@ -366,7 +366,92 @@ a {
 	color: #000;
 }
 
-/* About Page*/
+
+/*-------Checkout Page-------*/
+.checkoutBlock {
+	margin-top:7rem;
+}
+
+.columnTitle {
+	text-align: left;
+	font-size: 1.1rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	display: block;
+	clear: both;
+}
+
+.fieldLabel {
+	text-align: left;
+	font-size: 1.3rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin-bottom: 0.5rem;
+	clear: both;
+}
+
+.textbox {
+	width: 15rem;
+	border: 1px solid #000;
+	height: 2rem;
+	float: left;
+	margin-bottom: 2rem;
+}
+
+.checkbox {
+	clear: both;
+	float: left;
+}
+
+.checkboxText {
+	text-align: left;
+	font-size: 1.3rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin-bottom: 0.5rem;
+	clear: both;
+	float: left;
+	padding-right: 2rem;
+}
+
+.lineSpacer {
+	height: 3rem;
+	float: left;
+	clear: both;
+}
+
+.dropdownCheckout{
+	position: relative;
+	float: left;
+	display: block;
+	clear: both;
+	margin-bottom: 2rem;
+	overflow:hidden;
+    width: 150px;
+    height: 25px;
+    border: 1px solid #000000;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background: url("../images/dropdown_arrow.png") no-repeat scroll 122px  #fff;
+    /* dropdown_arrow.png is a 28x25 image */
+}
+
+.selectCheckout {
+    border:0;
+    background: transparent;
+    padding-top:0.05rem;
+    padding-bottom: 0.05rem;
+    /*border:1px solid #d8d8d8;*/
+    width: 150px;
+    padding-left: 0.8rem;
+    -webkit-appearance: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/*-------About Page-------*/
 .aboutContent {
 	display: inline-block;
 	float: left;
@@ -377,7 +462,7 @@ a {
 	text-align: left;
 }
 
-/* Footer */
+/*-------Footer-------*/
 #footer {
 	position: relative;
 	max-width: 80%;
