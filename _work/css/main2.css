@@ -450,6 +450,13 @@ a {
 	clear: both;
 }
 
+.lineSpacer2 {
+	height: 4.1rem;
+	float: left;
+	clear: both;
+}
+
+
 .dropdownCheckout{
 	position: relative;
 	float: left;
