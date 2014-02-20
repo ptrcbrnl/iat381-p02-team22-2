@@ -18,6 +18,10 @@
 	width: 40%;
 }
 
+.col-4of5 {
+	width: 80%;
+}
+
 .grid:after {
 	content: "";
 	display: block;
@@ -32,7 +36,7 @@
 
 @media (max-width: 812px) {
 	
-	.col-1of5, .col-3of5, .col-2of5 {
+	.col-1of5, .col-3of5, .col-2of5, .col-4of5 {
 		width: 100%;
 	}
 
