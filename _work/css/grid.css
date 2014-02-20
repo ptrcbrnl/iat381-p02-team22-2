@@ -55,7 +55,7 @@
 .col-1of4 {
 	width: 25%
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 	
 	.col-1of4 {
 		width: 100%;
