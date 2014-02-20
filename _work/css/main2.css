@@ -462,6 +462,10 @@ a {
 	text-align: left;
 }
 
+.loginContent{
+	margin-top: 7rem;
+}
+
 /*-------Footer-------*/
 #footer {
 	position: relative;
