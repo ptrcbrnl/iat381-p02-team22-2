@@ -493,6 +493,13 @@ a {
 
 /*-------Body Content-------*/
 .bodyContent {
+	display: inline-block;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+	text-align: left;
 	}
 .summaryBoldLeft {
 	float: left;
@@ -556,16 +563,7 @@ a {
 	font-weight: 700;
 	font-size: 4rem;
 }
-/*-------About Page-------*/
-.aboutContent {
-	display: inline-block;
-	float: left;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.3rem;
-	margin-top: 0.5rem;
-	margin-right: 1rem;
-	text-align: left;
-}
+/*-------Login Page-------*/
 
 .loginContent{
 	margin-top: 7rem;
