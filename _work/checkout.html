@@ -54,7 +54,7 @@
 			<h1 class="sectionTitle">CHECKOUT</h1>
 			<div class="lineSeparator"></div>
 			<div class="grid">
-				<div class="col-1of4">
+				<div class="col-2of5">
 					<h2 class="columnTitle">BILLING ADDRESS</h2>
 					<p class="fieldLabel">Street Address</p>
 					<input type="text" name="StreetAddress" class="textbox"/>
@@ -73,13 +73,14 @@
 					<p class="fieldLabel">Country</p>
 					<input type="text" name="Country" class="textbox"/>
 				</div> <!-- end of Billing Address column -->
-				<div class="col-1of4">
+				<div class="col-2of5">
 					<h2 class="columnTitle">SHIPPING METHOD</h2>
 					<span class="checkboxText"><input type="radio" name="shippingMethod" value="standard" class="checkbox">Standard $10</span>
 					<span class="checkboxText"><input type="radio" name="shippingMethod" value="express" class="checkbox">Express $30</span>
 					<span class="lineSpacer"> </span>
 					<h2 class="columnTitle">PAYMENT METHOD</h2>
 					<span class="checkboxText"><input type="radio" name="paymentMethod" value="creditCard" class="checkbox">Credit Card</span>
+					<div class="lineSpacer"></div>
 					<p class="fieldLabel">Credit Card</p>
 					<div class="dropdownCheckout">
 				        <select name="creditCardType" class="selectCheckout">
@@ -98,11 +99,23 @@
 					<input type="text" name="cardVeriNumber" class="textbox"/>
 					<span class="checkboxText"><input type="radio" name="paymentMethod" value="paypal" class="checkbox">PayPal Express</span>
 				</div> <!-- end of Shipping Method column -->
-				<div class="col-1of4">
+				<div class="col-1of5">
 					<h2 class="columnTitle">ORDER SUMMARY</h2>
-				</div>
-			</div>
-		</div>
+					<div class="summaryBlock">
+						<span class="summaryBoldLeft">Subtotal</span>
+						<span class="summaryBoldRight">USD 98.00</span>
+						<span class="summaryTextLeft">Estimated Shipping</span>
+						<span class="summaryTextRight">USD 10.00</span>
+						<span class="summaryTextLeft">Estimated Tax</span>
+						<span class="summaryTextRight">----</span>
+						<div class="lineSeparatorSmall"></div>
+						<span class="summaryBoldLeft">Estimated Total</span>
+						<span class="summaryBoldRight">USD 108.00</span>
+					</div> <!-- end of summaryBlock -->
+					<button type="button" class="cartButton" onClick="javascript: document.location.href='order_confirmation.html'">PLACE ORDER</button>
+				</div> <!-- end of Order Summary column -->
+			</div> <!-- end of Grid -->
+		</div> <!-- end of checkoutBlock -->
   	</div> <!-- end of container -->
 
   	
