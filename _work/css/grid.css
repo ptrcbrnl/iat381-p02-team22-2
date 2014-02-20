@@ -17,6 +17,7 @@
 .col-2of5 {
 	width: 40%;
 }
+
 .grid:after {
 	content: "";
 	display: block;
