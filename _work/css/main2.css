@@ -451,8 +451,8 @@ a {
 }
 
 
-/*-------About Page-------*/
-.aboutContent {
+/*-------Body Content-------*/
+.bodyContent {
 	display: inline-block;
 	float: left;
 	font-family: 'Source Sans Pro', sans-serif;
