@@ -126,10 +126,13 @@ body {
 
 .productPlaceholder {
 	display: block;
-	height: 35rem;
+	height: 100%;
 	width: 95%;
-	background-color: gray;
+}
+
+.productImg {
 	border: 1px solid #000;
+	width: 100%;
 }
 
 .productInfo {
@@ -151,7 +154,6 @@ body {
 
 .dropdownBrand {
 	position: relative;
-	float: left;
 	display: block;
 	clear: both;
 	margin-top: 2.5rem;
@@ -181,7 +183,6 @@ body {
 
 .dropdownSize {
 	position: relative;
-	float: left;
 	display: block;
 	clear: both;
 	margin-top: 1rem;
@@ -510,6 +511,7 @@ a {
 	margin-top: 0.5rem;
 	margin-right: 1rem;
 	text-align: left;
+	width: 95%;
 	}
 .summaryBoldLeft {
 	float: left;
@@ -577,6 +579,11 @@ a {
 
 .loginContent{
 	margin-top: 7rem;
+}
+
+.newCustomer {
+	padding-left: 5%;
+	border-left: 1px solid black;
 }
 
 /*-------Footer-------*/
