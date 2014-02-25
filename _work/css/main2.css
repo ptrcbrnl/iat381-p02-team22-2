@@ -109,6 +109,24 @@ body {
 	font-size: 4rem;
 }
 
+.imageText {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 4rem;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	top: 50%;
+	left: 25%;
+	position: absolute;
+	
+}
+
+.homeImg {
+	width: 100%;
+	position: relative;
+}
+
 /*-------Product Detail Page-------*/
 .productDetail {
 	margin-top: 5rem;
