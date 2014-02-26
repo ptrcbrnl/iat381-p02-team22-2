@@ -19,120 +19,126 @@
   </head>
 
   <body>
-  	<a href="index2.html"><div class="masthead">
-  		SNEAKERHEADZ
-  	</div></a> <!-- end of masthead-->
-
-  	<div id="container">
-  		<nav class="grid">
-			<div class="col-1of5">
-		      <ul id="coolMenu">
-		      	<li>
-		      		<a class="navLinks" href="#">SHOP</a>
-		      		<ul>
-		      			<li><a href="shop_men.html">MEN</a></li>
-		      			<li><a href="shop_women.html">WOMEN</a></li>
-		      		</ul>
-		      	</li>      	
-		      </ul>
-		    </div>
-		    <div class="col-1of5">
-		    	<a class="navLinks selectedLink"  href="swap_default.html">SWAP</a>
-		    </div>
-		    <div class="col-1of5">
-		    	<a class="navLinks"  href="blog_main.html">BLOG</a>
-		    </div>
-		    <div class="col-1of5">
-		    	<a class="navLinks"  href="about.html">ABOUT</a>
-		    </div>
-		    <div class="col-1of5">
-		    	<a class="navLinks"  href="login_main.html">LOG IN</a>
-		   	</div>
-		</nav> <!-- end of nav grid -->
-		<div class="productGallery">
-		<h1 class="sectionTitle">SWAP</h1>
-			<div class="grid">
-				<div class="col-1of4">
-					<div class="brandSection">
-						<h1 class="sectionTitle">BRANDS<h1>
-						<li><a href="#">Adidas</a><li>
-						<li><a href="#">Asics</a><li>
-						<li><a href="#">Jordan</a><li>
-						<li><a href="#">New Balance</a><li>
-						<li><a href="#">Nike</a><li>
-					</div> <!-- end of brandSection -->
-					<div class="customSearch">
-						<h1 class="sectionTitle">CUSTOM SEARCH<h1>
-						<div class="dropdownSize">
-					        <select name="Brand" class="selectBrand">
-					          <option value="Select Brand">Select Brand</option>
-					          <option value="Adidas">Adidas</option>
-					          <option value="Asics">Asics</option>
-					          <option value="New Balance">New Balance</option>
-					          <option value="Nike">Nike</option>
-					        </select>
-	     				</div>
-	     				<div class="dropdownSize">
-					        <select name="Model" class="selectSize">
-					          <option value="Select Model">Select Model</option>
-					          <option value="Terminator">Terminator</option>
-					          <option value="Air Force 1">Air Force 1</option>
-					          <option value="Dunk Hi">Dunk Hi</option>
-					          <option value="Dunk Low">Dunk Low</option>
-					        </select>
-	     				</div>
-	     				<div class="dropdownSize">
-					        <select name="Size" class="selectSize">
-					          <option value="Select Size">Select Size</option>
-					          <option value="6">6</option>
-					          <option value="7">7</option>
-					          <option value="8">8</option>
-					          <option value="9">9</option>
-					          <option value="10">10</option>
-					          <option value="11">11</option>
-					          <option value="12">12</option>
-					        </select>
-	     				</div>
-	     				<button type="button" class="cartButton" onClick="javascript: document.location.href='swap_detail.html'">SEARCH</button>
-					</div> <!-- end of customSearch -->
-				</div> <!-- end of column -->
-				<div class="col-1of4">
-					<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
-						<img class="galleryImage" src="http://placehold.it/300x200">
-						<a href="swap_detail.html" class="productName">Product Name | $240</a>
+	<div class="utilities">
+			<span class="uLinks">
+				<a href="#">SEARCH</a>  |  
+				<a href="checkout.html">CHECKOUT</a>  |  
+				<a href="login_main.html">LOG IN</a>
+			</span>
+	</div> <!-- end of utilities -->
+  	<div class="newmasthead">
+ 		<a href="index2.html">
+  			<img class="headerImg" src="images/headerlogo.gif">
+  		</a> 
+  	</div> <!-- end of masthead-->
+	
+	
+	 	<div id="navBar">
+			<div class="navLine">
+	 			<nav class="grid">
+					<div class="col-1of5">
+				      	<a class="navLinks" href="shop_men.html">MEN</a>
+				    </div>
+				    <div class="col-1of5">
+				    	<a class="navLinks" href="shop_women.html">WOMEN</a>
+				    </div>
+				    <div class="col-1of5">
+				    	<a class="navLinks"  href="swap_default.html">SWAP</a>
+				    </div>
+				    <div class="col-1of5">
+				    	<a class="navLinks"  href="blog_main.html">BLOG</a>
+				    </div>
+				    <div class="col-1of5">
+						<a class="navLinks"  href="about.html">ABOUT</a>
+				    </div>
+				</nav> <!-- end of grid -->
+			</div> <!-- end of navLine -->
+		</div> <!-- end of navBar -->
+		
+		<div id="container">
+			<div class="productGallery">
+			<h1 class="sectionTitle">SWAP</h1>
+				<div class="grid">
+					<div class="col-1of4">
+						<div class="brandSection">
+							<h1 class="sectionTitle">BRANDS<h1>
+							<li><a href="#">Adidas</a><li>
+							<li><a href="#">Asics</a><li>
+							<li><a href="#">Jordan</a><li>
+							<li><a href="#">New Balance</a><li>
+							<li><a href="#">Nike</a><li>
+						</div> <!-- end of brandSection -->
+						<div class="customSearch">
+							<h1 class="sectionTitle">CUSTOM SEARCH<h1>
+							<div class="dropdownSize">
+						        <select name="Brand" class="selectBrand">
+						          <option value="Select Brand">Select Brand</option>
+						          <option value="Adidas">Adidas</option>
+						          <option value="Asics">Asics</option>
+						          <option value="New Balance">New Balance</option>
+						          <option value="Nike">Nike</option>
+						        </select>
+		     				</div>
+		     				<div class="dropdownSize">
+						        <select name="Model" class="selectSize">
+						          <option value="Select Model">Select Model</option>
+						          <option value="Terminator">Terminator</option>
+						          <option value="Air Force 1">Air Force 1</option>
+						          <option value="Dunk Hi">Dunk Hi</option>
+						          <option value="Dunk Low">Dunk Low</option>
+						        </select>
+		     				</div>
+		     				<div class="dropdownSize">
+						        <select name="Size" class="selectSize">
+						          <option value="Select Size">Select Size</option>
+						          <option value="6">6</option>
+						          <option value="7">7</option>
+						          <option value="8">8</option>
+						          <option value="9">9</option>
+						          <option value="10">10</option>
+						          <option value="11">11</option>
+						          <option value="12">12</option>
+						        </select>
+		     				</div>
+		     				<button type="button" class="cartButton" onClick="javascript: document.location.href='swap_detail.html'">SEARCH</button>
+						</div> <!-- end of customSearch -->
+					</div> <!-- end of column -->
+					<div class="col-1of4">
+						<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
+							<img class="galleryImage" src="http://placehold.it/300x200">
+							<a href="swap_detail.html" class="productName">Product Name | $240</a>
+						</div>
+						<div class="lineSpacer"></div>
+						<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
+							<img class="galleryImage" src="http://placehold.it/300x200">
+							<a href="swap_detail.html" class="productName">Product Name | $240</a>
+						</div>
 					</div>
-					<div class="lineSpacer"></div>
-					<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
-						<img class="galleryImage" src="http://placehold.it/300x200">
-						<a href="swap_detail.html" class="productName">Product Name | $240</a>
+					<div class="col-1of4">
+						<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
+							<img class="galleryImage" src="http://placehold.it/300x200">
+							<a href="swap_detail.html" class="productName">Product Name | $240</a>
+						</div>
+						<div class="lineSpacer"></div>
+						<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
+							<img class="galleryImage" src="http://placehold.it/300x200">
+							<a href="swap_detail.html" class="productName">Product Name | $240</a>
+						</div>
 					</div>
+					<div class="col-1of4">
+						<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
+							<img class="galleryImage" src="http://placehold.it/300x200">
+							<a href="swap_detail.html" class="productName">Product Name | $240</a>
+						</div>
+						<div class="lineSpacer"></div>
+						<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
+							<img class="galleryImage" src="http://placehold.it/300x200">
+							<a href="swap_detail.html" class="productName">Product Name | $240</a>
+						</div>
+					</div>
+	
 				</div>
-				<div class="col-1of4">
-					<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
-						<img class="galleryImage" src="http://placehold.it/300x200">
-						<a href="swap_detail.html" class="productName">Product Name | $240</a>
-					</div>
-					<div class="lineSpacer"></div>
-					<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
-						<img class="galleryImage" src="http://placehold.it/300x200">
-						<a href="swap_detail.html" class="productName">Product Name | $240</a>
-					</div>
-				</div>
-				<div class="col-1of4">
-					<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
-						<img class="galleryImage" src="http://placehold.it/300x200">
-						<a href="swap_detail.html" class="productName">Product Name | $240</a>
-					</div>
-					<div class="lineSpacer"></div>
-					<div class="productSingle" onClick="javascript: document.location.href='swap_detail.html'">
-						<img class="galleryImage" src="http://placehold.it/300x200">
-						<a href="swap_detail.html" class="productName">Product Name | $240</a>
-					</div>
-				</div>
-
-			</div>
-		</div> <!-- end of productGallery -->
-
+			</div> <!-- end of productGallery -->
 
   	</div> <!-- end of container -->
 

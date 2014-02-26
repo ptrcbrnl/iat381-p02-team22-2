@@ -34,7 +34,7 @@
 	box-sizing: border-box;
 }
 
-@media (max-width: 812px) {
+@media (max-width: 600px) {
 	
 	.col-1of5, .col-3of5, .col-2of5, .col-4of5 {
 		width: 100%;
@@ -66,3 +66,18 @@
 	}
 
 }
+
+
+
+.col-1of6 {
+	width: 16.66667%;
+}
+
+@media (max-width: 800px) {
+	
+	.col-1of6 {
+		width: 100%;
+	}
+}
+
+

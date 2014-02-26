@@ -11,10 +11,11 @@ body {
 
 #container {
 	position: relative;
-	max-width: 80%;
+	max-width: 85%;
 	margin: 0 auto;
 	margin-top: 2rem;
 }
+
 
 .masthead {
 	font-family: 'Oswald', sans-serif;
@@ -27,27 +28,66 @@ body {
 }
 
 .newmasthead {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
 	text-align: center;
-	color: #fff;
-	background-color: #000;
+	padding: 0.5rem 0 0.5rem 0;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.utilities {
+	clear: both;
+	display: relative; 
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+}
+
+.uLinks {
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	float: right;
+}
+#navBar {
+	margin-top: 1rem;
+	width: 85%;
+	display: relative;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navLine {
+	position: relative;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
 
 }
 
 .navLinks {
 	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
-	color: #000;
+	color: #333;
 	font-size: 1.5rem;
 	font-weight: 400;
+	display: inline-block;
+
+
 }
 
 .selectedLink {
 	text-decoration: underline;
 }
 
-
+.headerImg {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*-------Dropdown Navigation-------*/
 #coolMenu,
 #coolMenu ul {
@@ -96,6 +136,9 @@ body {
 /* Home Page */
 .homeContent {
 	margin-top: 5rem;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .placeholder {
@@ -607,7 +650,7 @@ a {
 /*-------Footer-------*/
 #footer {
 	position: relative;
-	max-width: 80%;
+	max-width: 85%;
 	margin: 0 auto;
 	bottom: -10rem;
 	height: 3rem;
