@@ -246,6 +246,7 @@ body {
 	position: relative;
 	display: block;
 	clear: both;
+	float: left;
 	margin-top: 1rem;
 	overflow:hidden;
     width: 150px;
