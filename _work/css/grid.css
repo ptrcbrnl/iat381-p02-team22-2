@@ -85,6 +85,14 @@
 @media (max-width: 900px) {
 	
 	.col-1of4 {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 500px) {
+	
+	.col-1of4 {
 		width: 100%;
 	}
 
