@@ -624,6 +624,15 @@ a {
 	clear: both;
 }
 
+.subheading {
+	text-align: left;
+	font-size: 1.3rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	display: block;
+	clear: both;
+}
+
 /*-------Confirmation Page-------*/
 .confirmationBlock {
 	width: 100%;

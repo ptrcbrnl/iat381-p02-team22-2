@@ -80,4 +80,16 @@
 	}
 }
 
+.col-1of3 {
+	width: 33.333%;
+}
+
+@media (max-width: 1000px) {
+	
+	.col-1of3 {
+		width: 100%;
+	}
+
+}
+
 
