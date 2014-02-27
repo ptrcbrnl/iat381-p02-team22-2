@@ -18,6 +18,13 @@
 	width: 40%;
 }
 
+@media (max-width: 800px){
+	
+	.col-2of5 {
+		width: 100%;
+		}
+}
+
 .col-4of5 {
 	width: 80%;
 }
@@ -34,9 +41,25 @@
 	box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	
-	.col-1of5, .col-3of5, .col-2of5, .col-4of5 {
+	.col-1of5 {
+		width: 33.3%;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.col-1of5 {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 350px) {
+
+	.col-1of5 {
 		width: 100%;
 	}
 

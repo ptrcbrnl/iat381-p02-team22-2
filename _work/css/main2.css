@@ -392,6 +392,7 @@ option {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: left;
+	clear: both;
 }
 
 .reviewButton {
