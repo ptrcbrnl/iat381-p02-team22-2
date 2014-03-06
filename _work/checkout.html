@@ -62,6 +62,7 @@
 
 			<div class="grid">
 				<div class="col-2of5">
+					<!--<div class="columnDivider"> --><!-- verticle line inbetween columns -->
 					<h2 class="columnTitle">BILLING ADDRESS</h2>
 					<p class="fieldLabel">Street Address</p>
 					<input type="text" name="StreetAddress" class="textbox"/>
@@ -79,8 +80,10 @@
 					<input type="text" name="PostalCode" class="textbox"/>
 					<p class="fieldLabel">Country</p>
 					<input type="text" name="Country" class="textbox"/>
+				<!--</div> --><!-- end of columnDivider -->
 				</div> <!-- end of Billing Address column -->
 				<div class="col-2of5">
+					<div class="columnDivider"><!-- verticle line inbetween columns -->
 					<h2 class="columnTitle">SHIPPING METHOD</h2>
 					<span class="checkboxText"><input type="radio" name="shippingMethod" value="standard" class="checkbox">Standard $10</span>
 					<span class="checkboxText"><input type="radio" name="shippingMethod" value="express" class="checkbox">Express $30</span>
@@ -105,8 +108,10 @@
 					<p class="fieldLabel">Card Verification Number</p>
 					<input type="text" name="cardVeriNumber" class="textbox"/>
 					<span class="checkboxText"><input type="radio" name="paymentMethod" value="paypal" class="checkbox">PayPal Express</span>
+					</div><!-- end of columnDivider -->
 				</div> <!-- end of Shipping Method column -->
 				<div class="col-1of5">
+					<div class="columnDivider"><!-- verticle line inbetween columns -->
 					<h2 class="columnTitle">ORDER SUMMARY</h2>
 					<div class="summaryBlock">
 						<span class="summaryBoldLeft">Subtotal</span>
@@ -120,6 +125,7 @@
 						<span class="summaryBoldRight">USD 108.00</span>
 					</div> <!-- end of summaryBlock -->
 					<button type="button" class="cartButton" onClick="javascript: document.location.href='order_confirmation.html'">PLACE ORDER</button>
+				</div><!-- end of columnDivider -->
 				</div> <!-- end of Order Summary column -->
 			</div> <!-- end of Grid -->
 		</div> <!-- end of checkoutBlock -->
