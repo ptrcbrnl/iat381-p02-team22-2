@@ -42,6 +42,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1rem;
+	padding-bottom: 2rem; 
 }
 
 .uLinks {
@@ -74,6 +75,7 @@ body {
 	font-size: 1.5rem;
 	font-weight: 400;
 	display: inline-block;
+	padding: 1rem;
 
 
 }
@@ -562,6 +564,13 @@ a {
 	margin-bottom: 0.5rem;
 	width: 40%;
 	text-align: right;
+}
+
+.columnDivider {
+	border-left: 1px solid black;
+	padding-left: 5%;
+	float: left;
+	display: inline-block;
 }
 
 
