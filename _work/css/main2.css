@@ -8,7 +8,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	height: 100%;
-	
+}
 
 
 article {
@@ -25,6 +25,7 @@ section {
 	padding-bottom: 30px;
 	position: relative;
 }
+
 #container {
 	position: relative;
 	width: 85%;
@@ -338,7 +339,6 @@ option {
 	text-align: right;
 	float: right;
 	margin-bottom: 2rem;
-	padding-right: 10%;
 	margin-top: 0.5rem;
 }
 
@@ -446,7 +446,7 @@ option {
 }
 
 .galleryImage {
-	width: 90%;
+	width: 100%;
 	height: auto;
 	float: left;
 }
@@ -685,9 +685,8 @@ a {
 }
 
 /*-------Footer-------*/
-#footer {
+footer {
 	position: relative;
-	max-width: 85%;
 	margin: 0 auto;
 	bottom: -10rem;
 	height: 3rem;

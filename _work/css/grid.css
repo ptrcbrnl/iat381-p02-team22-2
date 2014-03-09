@@ -11,7 +11,7 @@
   padding-right: 20px;
 }
 [class*='col-']:last-of-type {
-  padding-right: 0;
+  padding-right: 20px;
 }
 
 /* top, bottom, left padding for grid parent */
