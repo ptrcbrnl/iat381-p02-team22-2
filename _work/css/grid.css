@@ -16,7 +16,7 @@
 
 /* top, bottom, left padding for grid parent */
 .grid-pad {
-  padding: 20px 0 20px 20px;
+  padding: 20px 0 20px 0px;
 }
 
 /* right padding for last column */
@@ -24,6 +24,22 @@
   padding-right: 20px;
 }
 
+
+/* navlinks grid-pad */
+.links-pad {
+	padding: 10px 0 10px 10px;
+}
+
+.links-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
+
+.col-1of1 {
+	width: 100%;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}
 
 .col-1of5 {
 	width: 20%;

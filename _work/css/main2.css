@@ -5,14 +5,31 @@ html {
 
 body {
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+	height: 100%;
+	
+
+
+article {
+	clear: both;
+	width: 100%;
+	margin-bottom: 1rem;
+	float: left;
 }
 
+section {
+	width: 100%;
+	clear: both;
+	margin-bottom: 2rem;
+	padding-bottom: 30px;
+	position: relative;
+}
 #container {
 	position: relative;
-	max-width: 85%;
-	margin: 0 auto;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 2rem;
 }
 
