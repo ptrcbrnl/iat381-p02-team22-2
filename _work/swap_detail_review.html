@@ -1,4 +1,4 @@
-<!-- Product Detail -->
+<!-- Swap -->
 
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
 
-    <title>Sneakerheadz - Product Detail</title>
+    <title>Sneakerheadz - Swap</title>
 
   </head>
 
@@ -63,14 +63,23 @@
 			<section>
 				<div class="col-3of5">
 					<div class="productPlaceholder">
-							<img class="productImg" src="images/adidas_rick_owens.png" alt="image">
+							<img class="productImg" src="images/air_tech_challenge.png" alt="image">
 		  			</div>
 				</div> 
 				<div class="col-2of5">
-					<h1 class="sectionTitle">ADIDAS X RICK OWENS TECH RUNNER</h1>
-					<h1 class="priceText">$800</h1>
+					<h1 class="sectionTitle">NIKE AIR TECH CHALLENGE II</h1>
+					<h1 class="priceText">$240</h1>
 					<div class="productInfo">
-							Released in the latter part of 2013, these sneakers are a collaboration between Adidas fashion designer Rick Owens. This sneaker features a padded leather collar, a perforated leather and suede upper and two-piece outsole.			</div>
+							First released in 1988, these sneakers were taken to the tennis court by Andre Agassi and has influenced the look of tennis sneakers since it came out.					</div>
+					<div class="dropdownBrand">
+				        <select name="Brand" class="selectBrand">
+				          <option value="Select Brand">Select Brand</option>
+				          <option value="Adidas">Adidas</option>
+				          <option value="Asics">Asics</option>
+				          <option value="New Balance">New Balance</option>
+				          <option value="Nike">Nike</option>
+				        </select>
+	     			</div>
 	     			<div class="dropdownSize">
 				        <select name="Size" class="selectSize">
 				          <option value="Select Size">Select Size</option>
@@ -83,7 +92,7 @@
 				          <option value="12">12</option>
 				        </select>
 	     			</div>
-	     			<button type="button" class="cartButton" onClick="window.location.href='#'">ADD TO CART</button>
+	     			<button type="button" class="cartButton" onClick="window.location.href='swap_possible_swaps.html'">SWAP</button>
 	     			<div class="wishlist"><a href="#">Add to Wishlist</a></div>
 				</div>
 			</section>
@@ -92,30 +101,31 @@
 			
 			<section>
 				<div class="col-1of1">
-					<h1 class="sectionTitle">REVIEWS</h1>
-					<button type="button" class="reviewButton" onClick="window.location.href='product_detail_review.html#textarea'">WRITE A REVIEW</button>
+					<h1 class="sectionTitle" id="textarea">REVIEWS</h1>
+					<textarea class="reviewComment"></textarea>
+					<button type="button" class="reviewButton" onClick="window.location.href='#comment'">SUBMIT</button>
 				</div>
 
-				<div class="col-2of5">
-					<a href="#" class="raterName">Adidididas</a>
-					<span class="rating">&#9733 &#9733 &#9733 &#9733 &#9733</span>
+				<div class="col-2of5" >
+					<a href="#" class="raterName">Username 30023</a>
+					<span class="rating">&#9733 &#9733 &#9733 &#9734 &#9734</span>
 				</div>
 				<div class="col-3of5">
-					<p class="commentTitle">Ridiculous</p>
+					<p class="commentTitle">Comment Title</p>
 							<p class="commentDate">JANUARY 3, 2014</p>
-							<p class="commentText">These shoes are ridiculous..but I still couldn't help myself!</p>
+							<p class="commentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus, turpis nec suscipit vestibulum, lorem dolor tincidunt arcu, sed vulputate lorem lacus feugiat tellus. Suspendisse tristique vestibulum molestie. Nam est risus, vestibulum sed ipsum at, dignissim hendrerit nisi. Ut in libero convallis, convallis massa eget, rhoncus leo. Nam congue nunc vulputate nibh venenatis, sed euismod sem convallis. </p>
 				</div>
 				
 				<aside><div class="lineSeparator"></div></aside>
 
-				<div class="col-2of5">
-					<a href="#" class="raterName">Shoe_Fiend23</a>
+				<div class="col-2of5" id="comment">
+					<a href="#" class="raterName">Username 30023</a>
 					<span class="rating">&#9733 &#9733 &#9733 &#9733 &#9734</span>
 				</div>
 				<div class="col-3of5">
-					<p class="commentTitle">Best Collabo!</p>
+					<p class="commentTitle">Comment Title</p>
 							<p class="commentDate">JANUARY 3, 2014</p>
-							<p class="commentText">I've been waiting for this collabo ever since I heard about it early last year. The tech runners are so comfortable and cool. </p>
+							<p class="commentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus, turpis nec suscipit vestibulum, lorem dolor tincidunt arcu, sed vulputate lorem lacus feugiat tellus. Suspendisse tristique vestibulum molestie. Nam est risus, vestibulum sed ipsum at, dignissim hendrerit nisi. Ut in libero convallis, convallis massa eget, rhoncus leo. Nam congue nunc vulputate nibh venenatis, sed euismod sem convallis. </p>
 				</div>
 			</section>
 							

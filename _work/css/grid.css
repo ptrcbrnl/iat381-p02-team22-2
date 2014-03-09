@@ -28,6 +28,7 @@
 /* navlinks grid-pad */
 .links-pad {
 	padding: 10px 0 10px 10px;
+	bottom: 30px;
 }
 
 .links-pad > [class*='col-']:last-of-type {
