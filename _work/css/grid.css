@@ -154,6 +154,9 @@
 	width: 33.333%;
 }
 
+.col-2of3 {
+	width: 66.666%;
+}
 @media (max-width: 1000px) {
 	
 	.col-1of3 {
