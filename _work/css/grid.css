@@ -16,7 +16,7 @@
 
 /* top, bottom, left padding for grid parent */
 .grid-pad {
-  padding: 20px 0 20px 0px;
+  padding: 20px 0 20px 20px;
 }
 
 /* right padding for last column */
@@ -38,8 +38,8 @@
 
 .col-1of1 {
 	width: 100%;
-	padding-bottom: 3rem;
-	padding-top: 3rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 }
 
 .col-1of5 {
