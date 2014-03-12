@@ -63,21 +63,29 @@ section {
 }
 
 .utilities {
+	
 	clear: both;
 	display: relative; 
 	width: 85%;
+	height: 3.7rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1rem;
+	margin-top: 0;
 	padding-bottom: 2rem; 
+	background-color: #333;
+	padding: 0.8rem 2rem 0.8rem 0.8rem;
 }
 
 .uLinks {
-	color: #333;
+	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 1.5rem;
 	float: right;
+}
+
+.uLinks > a {
+	color: #fff;
 }
 #navBar {
 	margin-top: 1rem;
@@ -801,3 +809,10 @@ footer {
 	color: white;
 }
 
+.searchBox {
+	width: 11rem;
+	border: 1px solid #000;
+	height: 2rem;
+	float: left;
+	margin-bottom: 2rem;
+}
