@@ -116,6 +116,7 @@
 	
 	.col-1of2 {
 		width: 100%;
+		float: center;
 	}
 
 }
