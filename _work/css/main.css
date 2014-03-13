@@ -292,6 +292,17 @@ ul > li > a:hover {
 
 }
 
+.sectionTitle2 {
+	text-align: left;
+	font-size: 1.5rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	display: block;
+	clear: both;
+	margin-bottom: 0.8rem;
+
+}
+
 .sectionTitleExpand {
 	text-align: left;
 	font-size: 1.5rem;
