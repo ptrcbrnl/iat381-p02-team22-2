@@ -63,9 +63,7 @@ section {
 }
 
 .utilities {
-	
 	clear: both;
-	display: relative; 
 	width: 100%;
 	height: 3.7rem;
 	margin-left: auto;
@@ -87,14 +85,7 @@ section {
 .uLinks > a {
 	color: #fff;
 }
-#navBar {
-	margin-top: 1rem;
-	width: 85%;
-	display: relative;
-	clear: both;
-	margin-right: auto;
-	margin-left: auto;
-}
+
 
 .navLine {
 	position: relative;
@@ -184,17 +175,6 @@ ul > li > a:hover {
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.placeholder {
-	display: block;
-	height: 35rem;
-	width: 100%;
-	background-color: gray;
-	border: 1px solid #000;
-	font-family: 'Oswald', sans-serif;
-	font-family: 700;
-	font-size: 4rem;
 }
 
 .imageText {
@@ -732,8 +712,9 @@ a {
 footer {
 	position: relative;
 	margin: 0 auto;
-	bottom: -10rem;
-	height: 3rem;
+	bottom: -8rem;
+	height: 4rem;
+	padding-bottom: 1rem;
 }
 
 .copyright {
@@ -765,11 +746,6 @@ footer {
 
 }
 
-.secondaryLink {
-	color: #fff auto !important;
-	font-weight: 400;
-	font-size: 2rem;
-}
 
 /*-------New Index Page-------*/
 .textBlocks {
@@ -777,7 +753,7 @@ footer {
 	height: auto;
 	font-size: 3rem;
 	color: white;
-	background-color: #000;
+	background-color: #333;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	text-align: left;
@@ -796,6 +772,8 @@ footer {
 	padding-bottom: 20px;
 	
 }
+
+
 
 /* hover overlay on image */
 .overlay {
@@ -843,3 +821,4 @@ footer {
 	width: 100%;
 	height: 100%;
 }
+

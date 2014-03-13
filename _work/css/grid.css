@@ -188,5 +188,14 @@
 	.searchBox {
 		width: 11rem;	
 	}
+	
+	.footerLinks {
+		float: left;
+		padding-left: 0;
+	}
+	
+	.blogLinks {
+		list-style-type: none;
+	}
 }
 
