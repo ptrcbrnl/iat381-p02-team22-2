@@ -1,4 +1,6 @@
-/* main.css */
+/*Sneakerheadz, main.css */
+
+
 html {
 	font-size: 62.5%;
 }
@@ -62,6 +64,7 @@ section {
 	margin-right: auto;
 }
 
+/* style for utility bar at top of page */
 .utilities {
 	clear: both;
 	width: 100%;
@@ -109,6 +112,7 @@ a:hover {
 	padding: 1rem;
 }
 
+/* style for collapsable search menu */
 #navToggle{
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.2rem;
@@ -116,7 +120,6 @@ a:hover {
 	display: inline-block;
 	display: none;
 	float: left;
-	/*background-color: black;*/
 	color: black;
 	text-decoration: underline;
 	padding-bottom: 1rem;
@@ -148,28 +151,86 @@ ul > li > a:hover {
 	padding-bottom: 2rem;
 	margin-bottom: 2rem;
 }
-/*-------Dropdown Navigation-------*/
-#coolMenu,
-#coolMenu ul {
-    list-style-type: none;
-    margin-top: 0;
-}
-#coolMenu {
 
-}
-#coolMenu > li {
 
+/*-------Body Content-------*/
+.bodyContent {
+	display: inline-block;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+	text-align: left;
+	width: 95%;
+	}
+
+.summaryBoldLeft {
+	float: left;
+	font-size: 1.3rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	width: 60%;
+	text-align: left;;
 }
-#coolMenu li a {
+
+.summaryTextRight {
+	float: right;
+	font-size: 1.3rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+	width: 40%;
+	text-align: right;
+}
+
+.summaryTextLeft {
+	float: left;
+	font-size: 1.3rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+	width: 60%;
+	text-align: left;;
+}
+
+.summaryBlock {
+	width: 70%;
+	height: 15rem;
+	background-color: #E8E8E8;
 	display: block;
-    height: 2em;
-    text-decoration: none;
-    margin-right: auto;
-    margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	border: 1px solid #000;
+}
+
+.lineSeparatorSmall {
+	height:1px;
+	background:#717171;
+	border-bottom:1px solid #313030;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	clear: both;
+}
+
+.sideBorder {
+	padding-right: 20px;
+	border-right: 1px solid black;
+}
+
+.subheading {
+	text-align: left;
+	font-size: 1.3rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	display: block;
+	clear: both;
 }
 
 
-/* Home Page */
+/*-----Home Page-----*/
 .homeContent {
 	margin-top: 5rem;
 	width: 85%;
@@ -193,7 +254,28 @@ ul > li > a:hover {
 .homeImg {
 	width: 100%;
 	position: relative;
+	height: auto;
+	padding-bottom: 20px;
 }
+
+.textBlocks {
+	width: 100%;
+	height: auto;
+	font-size: 3rem;
+	color: white;
+	background-color: #333;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	padding: 2rem;
+	margin-bottom: 20px;
+}
+
+.nextLine {
+	padding:0;
+	margin: 0;
+}
+
 
 /*-------Product Detail Page-------*/
 .productDetail {
@@ -270,7 +352,6 @@ ul > li > a:hover {
     background: transparent;
     padding-top:0.05rem;
     padding-bottom: 0.05rem;
-    /*border:1px solid #d8d8d8;*/
     width: 150px;
     padding-left: 0.8rem;
     -webkit-appearance: none;
@@ -278,6 +359,7 @@ ul > li > a:hover {
     font-size: 1.2rem;
 }
 
+/* style for dropdown menu in custom search column */
 .dropdownSize {
 	position: relative;
 	display: block;
@@ -295,6 +377,7 @@ ul > li > a:hover {
     /* dropdown_arrow.png is a 28x25 image */
 }
 
+/* style for dropdown menu in custom search column */
 .selectSize {
     border:0;
     background: transparent;
@@ -307,6 +390,7 @@ ul > li > a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
 }
+
 option {
 	padding-left: 0.2rem;
 }
@@ -371,7 +455,9 @@ option {
 	position: relative;
 	
 }
-/*-------Review Section-------*/
+
+
+/*-------Review Section (for comments)-------*/
 .reviewSection {
 	width: 100%;
 	margin-top: 4rem;
@@ -458,6 +544,7 @@ option {
 	background-color: #000000;
 	color: white;
 }
+
 
 /*-------Product Gallery page-------*/
 .productGallery {
@@ -584,7 +671,6 @@ a {
     background: transparent;
     padding-top:0.05rem;
     padding-bottom: 0.05rem;
-    /*border:1px solid #d8d8d8;*/
     width: 150px;
     padding-left: 0.8rem;
     -webkit-appearance: none;
@@ -610,82 +696,8 @@ a {
 }
 
 
-/*-------Body Content-------*/
-.bodyContent {
-	display: inline-block;
-	float: left;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.3rem;
-	margin-top: 0.5rem;
-	margin-right: 1rem;
-	text-align: left;
-	width: 95%;
-	}
-.summaryBoldLeft {
-	float: left;
-	font-size: 1.3rem;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	margin-bottom: 0.5rem;
-	width: 60%;
-	text-align: left;;
-}
-
-.summaryTextRight {
-	float: right;
-	font-size: 1.3rem;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	margin-bottom: 0.5rem;
-	width: 40%;
-	text-align: right;
-}
-
-.summaryTextLeft {
-	float: left;
-	font-size: 1.3rem;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	margin-bottom: 0.5rem;
-	width: 60%;
-	text-align: left;;
-}
-
-.summaryBlock {
-	width: 70%;
-	height: 15rem;
-	background-color: #E8E8E8;
-	display: block;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	padding-top: 1rem;
-	border: 1px solid #000;
-}
-
-.lineSeparatorSmall {
-	height:1px;
-	background:#717171;
-	border-bottom:1px solid #313030;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	clear: both;
-}
-
-.sideBorder {
-	padding-right: 20px;
-	border-right: 1px solid black;
-}
-
-.subheading {
-	text-align: left;
-	font-size: 1.3rem;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	display: block;
-	clear: both;
-}
-
 /*-------Confirmation Page-------*/
+
 .confirmationBlock {
 	width: 100%;
 	height: 40rem;;
@@ -697,6 +709,8 @@ a {
 	font-weight: 700;
 	font-size: 4rem;
 }
+
+
 /*-------Login Page-------*/
 
 .loginContent{
@@ -708,7 +722,9 @@ a {
 	border-left: 1px solid black;
 }
 
+
 /*-------Footer-------*/
+
 footer {
 	position: relative;
 	margin: 0 auto;
@@ -747,35 +763,9 @@ footer {
 }
 
 
-/*-------New Index Page-------*/
-.textBlocks {
-	width: 100%;
-	height: auto;
-	font-size: 3rem;
-	color: white;
-	background-color: #333;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	text-align: left;
-	padding: 2rem;
-	margin-bottom: 20px;
-}
+/*-----Swap Page-----*/
 
-.nextLine {
-	padding:0;
-	margin: 0;
-}
-
-.homeImg {
-	width: 100%;
-	height: auto;
-	padding-bottom: 20px;
-	
-}
-
-
-
-/* hover overlay on image */
+/*hover overlay on image*/
 .overlay {
     position:absolute;
     top:0;
@@ -803,7 +793,9 @@ footer {
 }
 
 
-/* Blog Section */
+/*-----Blog Section-----*/
+
+/*for resizing video*/
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
