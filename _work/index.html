@@ -1,67 +1,136 @@
-<!-- sneakerheadz home page -->
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
 
     <!-- This defines what character set (language/fonts) by this webpage -->
-    <meta charset="utf-8">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link href="css/main.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Exo:300,800|Oswald:700' rel='stylesheet' type='text/css'>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-    <title>Sneakerheadz</title>
+
+    <title>Sneakerheadz - Home</title>
 
   </head>
 
   <body>
-  <div id="container">
-  <header>
-
-  	<div class="masthead">
-  		SNEAKERHEADZ
-  	</div>
-
-  </header>
-
-    <div id="navbar">
-      <ul>
-        <li><a href="http://www.google.ca">SHOP</a></li>
-        <li><a href="http://www.google.ca">SWAP</a></li>
-        <li><a href="http://www.google.ca">BLOG</a></li>
-        <li><a href="http://www.google.ca">ABOUT</a></li>
-        <li><a href="http://www.google.ca">LOG IN</a></li>
-      </ul>
-    </div>
-   </div>
-
-  	
-
-    <div id="details">
-      <h1>
-      Heading 1
-    </h1>
-      <div id="productImage"> Image placeholder
-      </div>
-    	<p id="bodyText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit id eros eget laoreet. In in est ut est gravida tempor. Pellentesque ligula lectus, aliquam pulvinar condimentum nec, aliquam ac mauris. Nunc vulputate iaculis libero. 
-    	</p>
-
-      <div id="dropdown">
-        <select name="Brand">
-          <option value="Select Brand">Select Brand</option>
-          <option value="Adidas">Adidas</option>
-          <option value="Asics">Asics</option>
-          <option value="New Balance">New Balance</option>
-          <option value="Nike">Nike</option>
-        </select>
-      </div>
-
-      <button type="button" class="cartButton">
-        ADD TO CART
-      </button>
-      
-    </div>
- 
+  	<div class="utilities">
+		<span class="uLinks">
+			<input type="text" name="search" class="searchBox">
+			<a href="shop_men.html">
+				<img src="images/search_icon.png">
+			</a>|&nbsp;
+			<a href="checkout.html">CHECKOUT</a>&nbsp;|&nbsp;  
+			<a href="login_main.html">LOG IN</a>
+		</span>
+  	</div> <!-- end of utilities -->
+  	<div id="container">
+	  	<div class="grid">
+	  		<section>
+		  		<div class="col-1of1 grid-pad">
+		  			<a href="index.html">
+		  			<img class="headerImg" src="images/headerlogo.gif">
+		  			</a> 
+		  		</div> <!-- end of col-1of1 -->
+	  		</section>
+	  	
+		  	<section>
+		  		<article class="links-pad navLine">
+		
+			  		<div class="col-1of5">
+			  			<a class="navLinks" href="shop_men.html">MEN</a>
+			  		</div>
+			  		<div class="col-1of5">
+				    	<a class="navLinks" href="shop_women.html">WOMEN</a>
+				    </div>
+				    <div class="col-1of5">
+				    	<a class="navLinks"  href="swap_default.html">SWAP</a>
+				    </div>
+				    <div class="col-1of5">
+				    	<a class="navLinks"  href="blog_main.html">BLOG</a>
+				    </div>
+				    <div class="col-1of5">
+						<a class="navLinks"  href="about.html">ABOUT</a>
+				    </div>
+			    
+			    </article>
+			</section>
+	  	
+			
+			<section class="grid-pad">
+					<div class="col-1of4">
+						<img class="homeImg" src="images/Adidas_StanSmith02.png">
+						<a href="shop_men.html">
+							<div class="textBlocks">
+								<p class="nextLine">YOU</p>
+								<p class="nextLine">LOVE</p>
+								<p class="nextLine">SNEAKERS</p>
+							</div>
+						</a>
+						<img class="homeImg" src="images/nike_huarache_1.png">
+						<img class="homeImg" src="images/nike_mayfly_flipped.png">
+						
+					</div> 
+					<div class="col-1of4">
+						<img class="homeImg" src="images/jordans.png">
+						<a href="swap_default.html">
+							<div class="textBlocks">
+								<p class="nextLine">YOU</p>
+								<p class="nextLine">HAVE</p>
+								<p class="nextLine">SNEAKERS</p>	
+							</div>		
+						</a>	
+						<img class="homeImg" src="images/sneakerman080114_560.jpg">
+					</div> <!-- end of second column -->
+					<div class="col-1of4">
+						<a href="shop_men.html">
+							<div class="textBlocks">
+								<p class="nextLine">YOU</p>
+								<p class="nextLine">NEED</p>
+								<p class="nextLine">NEW</p>
+								<p class="nextLine">SNEAKERS</p>	
+							</div>
+						</a>
+						<img class="homeImg" src="images/newbalance.jpg">
+						<img class="homeImg" src="images/nike_free_city.png">
+						
+					</div> <!-- end of third column -->
+					<div class="col-1of4">
+						<img class="homeImg" src="images/jordans2.jpg">
+						<a href="swap_default.html">
+							<div class="textBlocks">
+								<p class="nextLine">YOU</p>
+								<p class="nextLine">WANT</p>
+								<p class="nextLine">TO</p>
+								<p class="nextLine">SWAP</p>
+								<p class="nextLine">YOUR</p>
+								<p class="nextLine">SNEAKERS</p>
+							</div>
+						</a>
+						<img class="homeImg" src="images/adidas_consortium_home.png">
+						
+					</div> <!-- end of last column -->
+			</section>
+	  		
+	  	
+	  	</div> <!-- end of grid -->
+	  	<footer>
+	  			<div class="col-1of2">
+  				<div class="copyright">&#169; 2014 Sneakerheadz - All Rights Reserved</div>
+  			</div>
+  			<div class="col-1of2">
+  				<div class="footerLinks">
+  					<a href="#"> Terms of Use</a>
+  				</div>
+  				<div class="footerLinks">
+  					<a href="#"> Privacy Policy</a>
+  				</div>
+  			</div>
+	  		</footer>
+  	</div> <!-- end of container -->
   </body>
 
 </html>

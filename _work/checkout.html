@@ -1,14 +1,12 @@
-<!-- Checkout -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
 
     <!-- This defines what character set (language/fonts) by this webpage -->
-    <meta charset="utf-8">
-    <link href="css/main2.css" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -33,7 +31,7 @@
 	  	<div class="grid">
 	  		<section>
 		  		<div class="col-1of1 grid-pad">
-		  			<a href="index2.html">
+		  			<a href="index.html">
 		  			<img class="headerImg" src="images/headerlogo.gif">
 		  			</a> 
 		  		</div> <!-- end of col-1of1 -->
@@ -70,58 +68,61 @@
 			
 			<section>
 				<div class="col-1of2">
-					<form name="billingAddress">
-						<h2 class="columnTitle">BILLING ADDRESS</h2>
-						<p class="fieldLabel">Street Address</p>
-						<input type="text" name="StreetAddress" class="textbox"/>
-						<p class="fieldLabel">Postal Code</p>
-						<input type="text" name="PostalCode" class="textbox"/>
-						<p class="fieldLabel">Country</p>
-						<input type="text" name="Country" class="textbox"/>
-						<span class="checkboxText">
-						<input type="checkbox" name="shippingAddress" value="Yes" class="checkbox">This address is also my shipping address</span>
-					</form>
-					<form name="shippingAddress">
-						<span class="lineSpacer"> </span>
-						<h2 class="columnTitle">SHIPPING ADDRESS</h2>
-						<p class="fieldLabel">Street Address</p>
-						<input type="text" name="StreetAddress" class="textbox"/>
-						<p class="fieldLabel">Postal Code</p>
-						<input type="text" name="PostalCode" class="textbox"/>
-						<p class="fieldLabel">Country</p>
-						<input type="text" name="Country" class="textbox"/>
-					</form>
+					<div class="sideBorder">
+						<form name="billingAddress">
+							<h2 class="columnTitle">BILLING ADDRESS</h2>
+							<p class="fieldLabel">Street Address</p>
+							<input type="text" name="StreetAddress" class="textbox"/>
+							<p class="fieldLabel">Postal Code</p>
+							<input type="text" name="PostalCode" class="textbox"/>
+							<p class="fieldLabel">Country</p>
+							<input type="text" name="Country" class="textbox"/>
+							<span class="checkboxText">
+							<input type="checkbox" name="shippingAddress" value="Yes" class="checkbox">This address is also my shipping address</span>
+						</form>
+						<form name="shippingAddress">
+							<span class="lineSpacer"> </span>
+							<h2 class="columnTitle">SHIPPING ADDRESS</h2>
+							<p class="fieldLabel">Street Address</p>
+							<input type="text" name="StreetAddress" class="textbox"/>
+							<p class="fieldLabel">Postal Code</p>
+							<input type="text" name="PostalCode" class="textbox"/>
+							<p class="fieldLabel">Country</p>
+							<input type="text" name="Country" class="textbox"/>
+							<p class="fieldLabel"> </p>
+						</form>
+					</div>
 				</div>
-				<div class="col-1of2">
-					<form name="shippingMethod">
-						<h2 class="columnTitle">SHIPPING METHOD</h2>
-						<span class="checkboxText"><input type="radio" name="shippingMethod" value="standard" class="checkbox">Standard $10</span>
-						<span class="checkboxText"><input type="radio" name="shippingMethod" value="express" class="checkbox">Express $30</span>
-						<span class="lineSpacer"> </span>
-					</form>
-					<form name="paymentMethod">
-						<h2 class="columnTitle">PAYMENT METHOD</h2>
-						<span class="checkboxText"><input type="radio" name="paymentMethod" value="creditCard" class="checkbox">Credit Card</span>
-						<div class="lineSpacer"></div>
-						<p class="fieldLabel">Credit Card</p>
-						<div class="dropdownCheckout">
-					        <select name="creditCardType" class="selectCheckout">
-					          <option value="Select Credit Card">Select Credit Card</option>
-					          <option value="Visa">Visa</option>
-					          <option value="Mastercard">Mastercard</option>
-					          <option value="American Express">American Express</option>
-					          <option value="Discover">Discover</option>
-					        </select>
-	     				</div>
-		     			<p class="fieldLabel">Credit Card Number</p>
-						<input type="text" name="cardNumber" class="textbox"/>
-						<p class="fieldLabel">Expiration Date (MMYY)</p>
-						<input type="text" name="expDate" class="textbox"/>
-						<p class="fieldLabel">Card Verification Number</p>
-						<input type="text" name="cardVeriNumber" class="textbox"/>
-						<span class="checkboxText"><input type="radio" name="paymentMethod" value="paypal" class="checkbox">PayPal Express</span>
-					</form>
-					
+				<div class="col-1of2" >
+						<form name="shippingMethod">
+							<h2 class="columnTitle">SHIPPING METHOD</h2>
+							<span class="checkboxText"><input type="radio" name="shippingMethod" value="standard" class="checkbox">Standard $10</span>
+							<span class="checkboxText"><input type="radio" name="shippingMethod" value="express" class="checkbox">Express $30</span>
+							<span class="lineSpacer"> </span>
+						</form>
+						<form name="paymentMethod">
+							<h2 class="columnTitle">PAYMENT METHOD</h2>
+							<span class="checkboxText"><input type="radio" name="paymentMethod" value="creditCard" class="checkbox">Credit Card</span>
+							<div class="lineSpacer"></div>
+							<p class="fieldLabel">Credit Card</p>
+							<div class="dropdownCheckout">
+						        <select name="creditCardType" class="selectCheckout">
+						          <option value="Select Credit Card">Select Credit Card</option>
+						          <option value="Visa">Visa</option>
+						          <option value="Mastercard">Mastercard</option>
+						          <option value="American Express">American Express</option>
+						          <option value="Discover">Discover</option>
+						        </select>
+		     				</div>
+			     			<p class="fieldLabel">Credit Card Number</p>
+							<input type="text" name="cardNumber" class="textbox"/>
+							<p class="fieldLabel">Expiration Date (MMYY)</p>
+							<input type="text" name="expDate" class="textbox"/>
+							<p class="fieldLabel">Card Verification Number</p>
+							<input type="text" name="cardVeriNumber" class="textbox"/>
+							<span class="checkboxText"><input type="radio" name="paymentMethod" value="paypal" class="checkbox">PayPal Express</span>
+						</form>
+		
 				</div>
 			</section>
 			<aside>
